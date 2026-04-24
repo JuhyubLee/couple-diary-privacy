@@ -1,0 +1,50 @@
+juhyub@juhyubui-MacBookAir couple-diary-project % flutter run --dart-define=SUPA
+BASE_URL=https://supabase.com/dashboard/project/nyxbekuiqbjlxnudqfxg
+Connected devices:
+macOS (desktop) • macos  • darwin-arm64   • macOS 26.3.1 25D2128 darwin-arm64
+Chrome (web)    • chrome • web-javascript • Google Chrome 147.0.7727.102
+
+No wireless devices were found.
+
+[1]: macOS (macos)
+[2]: Chrome (chrome)
+Please choose one (or "q" to quit): 1
+Launching lib/main.dart on macOS in debug mode...
+Running pod install...                                              4.8s
+/Users/juhyub/.pub-cache/hosted/pub.dev/sign_in_with_apple-6.1.4/macos/Classes/SignInWithAppleError.swift:99:13: warning: switch must be exhaustive
+            switch code {
+            ^
+            switch code {
+            ^
+            switch code {
+            ^
+            switch code {
+            ^
+            switch code {
+            ^
+            switch code {
+            ^
+Error: unable to find directory entry in pubspec.yaml: /Users/juhyub/Desktop/Coding/couple-diary-project/assets/images/
+
+
+Target debug_macos_bundle_flutter_assets failed: ShaderCompilerException: Shader compilation of "/Users/juhyub/Desktop/Coding/flutter/flutter/packages/flutter/lib/src/material/shaders/stretch_effect.frag" to "/Users/juhyub/Desktop/Coding/couple-diary-project/build/macos/Build/Products/Debug/App.framework/Versions/A/Resources/flutter_assets/shaders/stretch_effect.frag" failed with exit code -9.
+impellerc stdout:
+
+impellerc stderr:
+Failed to package /Users/juhyub/Desktop/Coding/couple-diary-project.
+Command PhaseScriptExecution failed with a nonzero exit code
+warning: Run script build phase 'Run Script' will be run during every build because it does not specify any outputs. To address this issue, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'Flutter Assemble' from project 'Runner')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.11, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'PromisesObjC-FBLPromises_Privacy' from project 'Pods')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.11, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'PromisesObjC' from project 'Pods')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.12, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'GTMSessionFetcher-GTMSessionFetcher_Full_Privacy' from project 'Pods')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.12, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'GTMSessionFetcher-GTMSessionFetcher_Core_Privacy' from project 'Pods')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.12, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'GTMSessionFetcher' from project 'Pods')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.12, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'GTMAppAuth-GTMAppAuth_Privacy' from project 'Pods')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.12, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'GTMAppAuth' from project 'Pods')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.12, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'AppAuth-AppAuthCore_Privacy' from project 'Pods')
+/Users/juhyub/Desktop/Coding/couple-diary-project/macos/Pods/Pods.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 10.12, but the range of supported deployment target versions is 10.13 to 26.4.99. (in target 'AppAuth' from project 'Pods')
+** BUILD FAILED **
+
+Building macOS application...
+Error: Build process failed
+juhyub@juhyubui-MacBookAir couple-diary-project %
