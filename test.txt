@@ -1,5 +1,5 @@
- cat > .env << 'EOF'
-  SUPABASE_URL=https://nyxbekuiqbjlxnudqfxg.supabase.co
-  SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im55eGJla3VpcWJqbHhudWRxZnhnIiw
-  icm9sZSI6ImFub24iLCJpYXQiOjE3Njc5Mzk0NTQsImV4cCI6MjA4MzUxNTQ1NH0.6JXM3J1fvuoOw_PoyzcKjFKDWq0kgFMfU8FVKy3Q3a8
-  EOF
+  echo 'SUPABASE_URL=https://nyxbekuiqbjlxnudqfxg.supabase.co' > .env
+
+  echo 'SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im55eGJla3VpcWJqbHhudWRxZ
+  nhnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5Mzk0NTQsImV4cCI6MjA4MzUxNTQ1NH0.6JXM3J1fvuoOw_PoyzcKjFKDWq0kgFMfU8FVKy3Q3a8' >>
+   .env
